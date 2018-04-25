@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.conf.urls import url
 
-from blog1 import views
+from . import views
 
 urlpatterns = [
     # url('^admin/', admin.site.urls),
